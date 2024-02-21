@@ -14,7 +14,7 @@ public class Solution
             int val = 1;
             for(int cst = 1; cst <= nst; cst++)
             {
-                System.out.print(val++);
+                System.out.print(val++ + " ");
             }
             for(int csp = 1; csp <= nsp; csp++)
             {
@@ -22,7 +22,7 @@ public class Solution
             }
             for(int cst = 1; cst <= nst; cst++)
             {
-                System.out.print(--val);
+                System.out.print(--val + " ");
             }
             nst++;
             nsp -= 2;
