@@ -33,7 +33,7 @@ public class Main
                         System.out.print(" ");
                     }
                 }
-                else if(i > 1 && i < n / 2 + 1)
+                else if(i <= n / 2)
                 {
                     if(j == n / 2 + 1 || j == n)
                     {
